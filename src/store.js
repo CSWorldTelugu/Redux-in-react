@@ -23,7 +23,7 @@ function accountReducer(state = initialState, action) {
   }
 }
 
-const store = createStore(accountReducerReducer);
+const store = createStore(rootReducer);
 
 function transactionReducer(state = [], action) {
   switch (action.type) {
